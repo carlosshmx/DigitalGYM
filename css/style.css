@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family:'Be Vietnam Pro', Tahoma, Geneva, Verdana, sans-serif ;
-  
 }
 
+/* ----------HEADER----------- */
 
 header section{
   display: flex;
@@ -14,7 +14,6 @@ header section{
   margin: 3rem 0;
   padding: 0 5%;
 }
-
 
 header nav{
   display: none;
@@ -46,12 +45,7 @@ header nav ul a:hover{
   transform: scale(1.2);
 }
 
-.padel-intro{
-  width: 100%;
-  max-width: 500px;
- 
-} 
-
+/* -----------------MAIN SLIDER-----------------*/
 .main-slider{
   display: flex;
   gap: 2rem;
@@ -60,6 +54,11 @@ header nav ul a:hover{
   padding: 2rem 5%;
   gap: 3rem;
 }
+
+.padel-intro{
+  width: 100%;
+  max-width: 500px;
+} 
 
 .main-slider-text{
   text-align: end;
@@ -73,6 +72,7 @@ header nav ul a:hover{
   font-size: 2.4rem;
 }
 
+/* ----------- BUTTONS -----------*/
 
 .button-shape{
   border-radius: 1.5rem;
@@ -93,6 +93,7 @@ header nav ul a:hover{
   cursor: pointer;
 }
 
+/* -------------BANNER / TOP LABEL------------ */
 .color-label{
   background-color: #3CDDF3;
   color: #FFFFFF;
@@ -110,6 +111,7 @@ header nav ul a:hover{
   gap: 2rem;
 }
 
+/* ----------ADVANTAGES--------- */
 .advantages{
   margin: 3rem 0 2rem 1.5rem;
   display: flex;
@@ -117,7 +119,6 @@ header nav ul a:hover{
   flex-wrap: wrap;
   gap: 2rem;
 }
-
 
 .card-titile{
   display: flex;
@@ -152,6 +153,8 @@ header nav ul a:hover{
   margin: 2rem 0 0 0.5rem;
   padding: 0 2rem 0 0 ;
 }
+
+/* -------------PEOPLE----------- */
 
 .people{
   text-align: center;
@@ -195,6 +198,7 @@ header nav ul a:hover{
   display: none;
 }
 
+/* ---------BANNER / BOTTON LABEL -------*/
 .botton-label{
   justify-content: center;
   align-items: center;
@@ -205,6 +209,8 @@ header nav ul a:hover{
 .botton-label h2{
   padding: 0 4rem;
 }
+
+/* ---------FOOTER-------- */
 
 footer{
   background-color: #1E1E26;
@@ -226,7 +232,6 @@ footer form{
   justify-content: center;
   flex-wrap: nowrap;
   gap: 0.5rem;
-  
 }
 
 footer form input{
@@ -238,13 +243,10 @@ footer form input{
   border: none;
 }
 
-
-
 .footer-content nav{
   display: flex;
   flex-wrap: nowrap;
   gap: 5rem;
-
 }
 
 .footer-content nav ul{
@@ -284,15 +286,15 @@ footer .copyright-text{
   color: #8C8C94;
 }
 
+/* ---------MEDIA QUERYS-------- */
+
 @media (min-width: 480px){
   header nav{
     display: inline;
   }
- 
   .icon-hamburger{
     display: none;
   }
-
   .icons-logo-container{
     padding: 0 10%;
   }
@@ -312,46 +314,36 @@ footer .copyright-text{
     justify-content: center;
     align-items: center;
   }
-
   .top-label h2{
     width: 50%;
   }
   .top-label p{
     width: 50%;
   }
-
   .advantages{
     flex-direction: row;
     justify-content: center;
-    
   }
   .advantages .card{
     width: 50%;
   }
-
   .card-titile{
     background-color:#FFFFFF;
   }
-
   .card-text{
     margin: 1rem 0 0 0;
-   
   }
-
   .botton-label{
     justify-content: space-between;
   }
-
   .botton-label h2{
     text-align: start;
     padding: 0;
   }
-
   .secundary-button{
     background-color: #FFFFFF;
     color: #8B48BF;
   }
-  
   .icons-logo-container{
     flex-direction: column-reverse;
     height: 130px;
@@ -361,24 +353,20 @@ footer .copyright-text{
   footer{
     padding: 3rem 5%;
   }
-
   .footer-content{
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
   }
-
   .footer-content form{
     flex-wrap: wrap;
     width: 30%;
   }
-  
   .icons-logo-container{
     justify-content: space-between;
     max-width: 200px;
   }
-
   footer .copyright-text{
     margin-top: 0;
     text-align: end;
@@ -386,7 +374,6 @@ footer .copyright-text{
 }
 
 @media(min-width: 800px){
-
   header nav ul{
     gap: 2rem;
   }
@@ -396,23 +383,18 @@ footer .copyright-text{
   .main-slider-text{
     width: 50%;
   }
-
   .people-card-container .p2{
     display: block;
   }
-
   .advantages .card{
     width: 45%;
   }
-
   .card-text{
     padding: 0 0 0 5.5rem ;
   }
-
   .botton-label h2{
     width: 50%;
   }
-  
 }
 
 @media(min-width: 1000px){
@@ -431,15 +413,12 @@ footer .copyright-text{
   .advantages{
     margin: 2rem 0;
   }
-
   .botton-label h2{
     width: 35%;
   }
-  
   footer{
     padding: 3rem 10%;
   }
-
   .footer-content form{
     flex-wrap: nowrap;
   }
@@ -458,7 +437,6 @@ footer .copyright-text{
   .color-label{
     padding: 2rem 15%;
   }
-
   .advantages{
     padding: 2rem 10%;
   }

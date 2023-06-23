@@ -1,0 +1,468 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Be Vietnam Pro', Tahoma, Geneva, Verdana, sans-serif ;
+  
+}
+
+
+header section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+  padding: 0 5%;
+}
+
+
+header nav{
+  display: none;
+  align-self: center;
+}
+
+.header-button{
+  display: none;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+}
+
+header nav ul a{
+  text-decoration: none;
+  color: #242E52;
+  transition: all 100ms linear;
+}
+
+header nav ul a:hover{
+  cursor: pointer;
+  color: #8C8C94;
+  transform: scale(1.2);
+}
+
+.padel-intro{
+  width: 100%;
+  max-width: 500px;
+ 
+} 
+
+.main-slider{
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5%;
+  gap: 3rem;
+}
+
+.main-slider-text{
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-slider-text h1{
+  color: #232851;
+  font-size: 2.4rem;
+}
+
+
+.button-shape{
+  border-radius: 1.5rem;
+  height: 2.5rem;
+  padding: 0 2rem;
+  outline: none;
+  border: none;
+}
+
+.main-button{
+  background-color: #8B48BF;
+  color: #FFFFFF;
+}
+
+.secundary-button{
+  background-color: #232C50;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.color-label{
+  background-color: #3CDDF3;
+  color: #FFFFFF;
+  padding: 2rem 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.color-label h2{
+  font-size: 1.8rem;
+}
+
+.top-label{
+  gap: 2rem;
+}
+
+.advantages{
+  margin: 3rem 0 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+
+.card-titile{
+  display: flex;
+  gap: 1rem;
+  background-color: #8b48bf4b;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 2.5rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+ 
+}
+
+.card-titile h4{
+  color: #232851;
+}
+
+.card-titile p:first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 0 1.5rem;
+  border-radius: 2rem;
+  background-color: #8B48BF;
+  color: #FFFFFF;
+}
+
+.card-text{
+  color: #B3B2B7;
+  margin: 2rem 0 0 0.5rem;
+  padding: 0 2rem 0 0 ;
+}
+
+.people{
+  text-align: center;
+  margin: 4rem 0 3rem 0;
+}
+
+.people h2{
+  font-size: 2rem;
+  color: #232851;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+
+.people-card-container{
+  display: flex;
+  padding: 0 5%;
+}
+
+.people .people-card{
+  text-align: center;
+  margin: 3rem 0;
+  padding: 0 1rem;
+  transition: all 300ms linear;
+}
+
+.people .people-card:hover{
+  transform: scale(1.1);
+}
+
+.people article h4{
+  margin: 1rem 0;
+  color: #3F4868;
+}
+
+.people-text{
+  color: #B3B2B7;
+}
+
+.people-card-container .p2{
+  display: none;
+}
+
+.botton-label{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.botton-label h2{
+  padding: 0 4rem;
+}
+
+footer{
+  background-color: #1E1E26;
+  padding: 3rem 5%;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+}
+
+footer form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  
+}
+
+footer form input{
+  width: 80%;
+  border-radius: 1.5rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+  outline: none;
+  border: none;
+}
+
+
+
+.footer-content nav{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5rem;
+
+}
+
+.footer-content nav ul{
+  list-style: none;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-content nav ul a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.icons-logo-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footer-icons{
+  width: 100%;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .copyright-text{
+  margin-top: 3rem;
+  text-align: center;
+  color: #8C8C94;
+}
+
+@media (min-width: 480px){
+  header nav{
+    display: inline;
+  }
+ 
+  .icon-hamburger{
+    display: none;
+  }
+
+  .icons-logo-container{
+    padding: 0 10%;
+  }
+}
+
+@media(min-width: 730px){
+  .header-button{
+    display: inline;
+  }
+  .main-slider{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .color-label{
+    background-color: #8B48BF;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-label h2{
+    width: 50%;
+  }
+  .top-label p{
+    width: 50%;
+  }
+
+  .advantages{
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .advantages .card{
+    width: 50%;
+  }
+
+  .card-titile{
+    background-color:#FFFFFF;
+  }
+
+  .card-text{
+    margin: 1rem 0 0 0;
+   
+  }
+
+  .botton-label{
+    justify-content: space-between;
+  }
+
+  .botton-label h2{
+    text-align: start;
+    padding: 0;
+  }
+
+  .secundary-button{
+    background-color: #FFFFFF;
+    color: #8B48BF;
+  }
+  
+  .icons-logo-container{
+    flex-direction: column-reverse;
+    height: 130px;
+    align-items: flex-start;
+    padding: 0;
+  }
+  footer{
+    padding: 3rem 5%;
+  }
+
+  .footer-content{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .footer-content form{
+    flex-wrap: wrap;
+    width: 30%;
+  }
+  
+  .icons-logo-container{
+    justify-content: space-between;
+    max-width: 200px;
+  }
+
+  footer .copyright-text{
+    margin-top: 0;
+    text-align: end;
+  }
+}
+
+@media(min-width: 800px){
+
+  header nav ul{
+    gap: 2rem;
+  }
+  .main-slider{
+    margin: 3rem 0;
+  }
+  .main-slider-text{
+    width: 50%;
+  }
+
+  .people-card-container .p2{
+    display: block;
+  }
+
+  .advantages .card{
+    width: 45%;
+  }
+
+  .card-text{
+    padding: 0 0 0 5.5rem ;
+  }
+
+  .botton-label h2{
+    width: 50%;
+  }
+  
+}
+
+@media(min-width: 1000px){
+  header section{
+    padding: 0 10%;
+  }
+  .main-slider{
+    padding: 0 10%;
+  }
+  .color-label{
+    padding: 2rem 10%;
+  }
+  .people{
+    padding: 0 5%;
+  }
+  .advantages{
+    margin: 2rem 0;
+  }
+
+  .botton-label h2{
+    width: 35%;
+  }
+  
+  footer{
+    padding: 3rem 10%;
+  }
+
+  .footer-content form{
+    flex-wrap: nowrap;
+  }
+}
+
+@media(min-width: 1300px){
+  header section{
+    padding: 0 15%;
+  }
+  .main-slider{
+    padding: 0 15%;
+  }
+  .main-slider-text{
+    width: 30%;
+  }
+  .color-label{
+    padding: 2rem 15%;
+  }
+
+  .advantages{
+    padding: 2rem 10%;
+  }
+  footer{
+    padding: 3rem 15%;
+  }
+}

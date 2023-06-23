@@ -1,0 +1,81 @@
+/* MAIN BUTTON */
+
+.main-button {
+    display: inline-block;
+    transition: all 0.3s linear;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid #8B48BF;
+  }
+  .main-button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .main-button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #ffffff;
+  
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .main-button:hover {
+    color: #8B48BF;
+    cursor: pointer;
+  }
+  .main-button:hover:before {
+    width: 100%;
+  }
+
+  /* SECUNDARY BUTTON  */
+
+  .secundary-button {
+    display: inline-block;
+    transition: all 0.3s linear;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid #ffffff;
+  }
+  .secundary-button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .secundary-button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #8B48BF;
+  
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .secundary-button:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .secundary-button:hover:before {
+    width: 100%;
+  }

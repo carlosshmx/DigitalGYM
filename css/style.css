@@ -83,7 +83,7 @@ header nav ul a:hover{
 }
 
 .main-button{
-  background-color: #8B48BF;
+  background-color: #bf485a;
   color: #FFFFFF;
 }
 
@@ -113,7 +113,7 @@ header nav ul a:hover{
 
 /* ----------ADVANTAGES--------- */
 .advantages{
-  margin: 3rem 0 2rem 1.5rem;
+  padding: 3rem 0 2rem 1.5rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -144,7 +144,7 @@ header nav ul a:hover{
   height: 100%;
   padding: 0 1.5rem;
   border-radius: 2rem;
-  background-color: #8B48BF;
+  background-color: #bf485a;
   color: #FFFFFF;
 }
 
@@ -172,6 +172,7 @@ header nav ul a:hover{
 .people-card-container{
   display: flex;
   padding: 0 5%;
+  background-color: #f3f3f3;
 }
 
 .people .people-card{
@@ -179,6 +180,8 @@ header nav ul a:hover{
   margin: 3rem 0;
   padding: 0 1rem;
   transition: all 300ms linear;
+
+  
 }
 
 .people .people-card:hover{
@@ -309,7 +312,7 @@ footer .copyright-text{
     justify-content: space-between;
   }
   .color-label{
-    background-color: #8B48BF;
+    background-color: #bf485a;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -328,7 +331,7 @@ footer .copyright-text{
     width: 50%;
   }
   .card-titile{
-    background-color:#FFFFFF;
+    background-color:#ffffff00;
   }
   .card-text{
     margin: 1rem 0 0 0;
@@ -342,7 +345,7 @@ footer .copyright-text{
   }
   .secundary-button{
     background-color: #FFFFFF;
-    color: #8B48BF;
+    color: #bf485a;
   }
   .icons-logo-container{
     flex-direction: column-reverse;
@@ -386,6 +389,9 @@ footer .copyright-text{
   .people-card-container .p2{
     display: block;
   }
+  .advantages{
+    background-color: #f3f3f3;
+  }
   .advantages .card{
     width: 45%;
   }
@@ -410,9 +416,10 @@ footer .copyright-text{
   .people{
     padding: 0 5%;
   }
-  .advantages{
-    margin: 2rem 0;
-  }
+  /* .advantages{
+    padding: 3rem 0 2rem 1.5rem;
+ 
+  } */
   .botton-label h2{
     width: 35%;
   }

@@ -6,7 +6,7 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
-    border: 1px solid #8B48BF;
+    border: 1px solid #bf485a;
   }
   .main-button:after {
     content: "";
@@ -32,7 +32,7 @@
     z-index: -1;
   }
   .main-button:hover {
-    color: #8B48BF;
+    color: #bf485a;
     cursor: pointer;
   }
   .main-button:hover:before {
@@ -66,7 +66,7 @@
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: #8B48BF;
+    background-color: #bf485a;
   
     transition: all 0.3s;
     border-radius: 10rem;
